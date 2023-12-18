@@ -1,6 +1,6 @@
 # SPC: Synthetic-Persona-Chat Dataset
 We introduce the Synthetic-Persona-Chat dataset, a persona-based conversational dataset, containing 5648 personas and 10906 conversations. It includes 8938, 1000, 968 conversations in 'train', 'validation' and 'test' splits.
-Synthetic-Persona-Chat is created via the framework introduced in Faithful Persona-based Conversational Dataset Generation with Large Language Models.
+Synthetic-Persona-Chat is created via the framework introduced in [Faithful Persona-based Conversational Dataset Generation with Large Language Models](https://arxiv.org/abs/2312.10007).
 
 Each conversation in the dataset has the following format:
 
@@ -26,7 +26,7 @@ If you found SPC useful, please use the following citation.
 ```
 
 ## License
-[CC-BY 4.0]([url](https://creativecommons.org/licenses/by/4.0/)https://creativecommons.org/licenses/by/4.0/)
+[CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Contact
 * Pegah Jandaghi (jandaghi@usc.edu)
