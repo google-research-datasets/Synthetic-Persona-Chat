@@ -5,9 +5,9 @@ Each conversation in the dataset has the following format:
 
 ```
 {
-"User 1 Persona":[],
-"User 2 Persona":[],
-"Conversation":[]
+  "User 1 Persona":[],
+  "User 2 Persona":[],
+  "Conversation":[]
 }
 ```
 
