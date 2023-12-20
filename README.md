@@ -1,12 +1,12 @@
 # SPC: Synthetic-Persona-Chat Dataset
-We introduce the Synthetic-Persona-Chat dataset, a persona-based conversational dataset, consisting of two parts. The first part, consisting of 4,723 personas and 10,906 conversations, is an extension to Persona-Chat, which has the same user profile pairs as Persona-Chat but new synthetic conversations, with the same train/validation/test split as Persona-Chat. The second part is new synthetic personas and synthetic conversations based on that, consisting of 5,648 synthetic personas and 11,001 conversations. Synthetic-Persona-Chat is created using the Generator-Critic framework introduced in [Faithful Persona-based Conversational Dataset Generation with Large Language Models](https://arxiv.org/abs/2312.10007).
+We introduce the Synthetic-Persona-Chat dataset, a persona-based conversational dataset, consisting of two parts. The first part, consisting of 4,723 personas and 10,906 conversations, is an extension to Persona-Chat, which has the same user profile pairs as Persona-Chat but new synthetic conversations, with the same train/validation/test split as Persona-Chat. The second part consists of 5,648 new, synthetic personas, and 11,001 conversations between them. Synthetic-Persona-Chat is created using the Generator-Critic framework introduced in [Faithful Persona-based Conversational Dataset Generation with Large Language Models](https://arxiv.org/abs/2312.10007).
 
 Each conversation in the dataset has the following format:
 
 ```
 {
-  "User 1 Persona":[],
-  "User 2 Persona":[],
+  "User 1 Personas":[],
+  "User 2 Personas":[],
   "Conversation":[]
 }
 ```
